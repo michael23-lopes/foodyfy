@@ -2,10 +2,9 @@
     <img alt="FoodFy" src="./public/assets/logo_admin.png" width="200px" />
 </h1>
 
-<h2 align="center">
-  PROJETO: FoodFy
+<div align="center">
   <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
-</h2>
+</div>
 
 <p align="center">
   <img alt="Project Status: complete" src="https://img.shields.io/badge/project%20status-complete-blue">
