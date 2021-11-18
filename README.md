@@ -26,8 +26,6 @@
 
 [Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
 
-[Instalação e uso](#instalação-e-uso)
-
 [Licença](#licença)
 
 
@@ -75,47 +73,6 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 - [BcryptJS](https://github.com/dcodeIO/bcrypt.js)
 - [Faker.js](https://github.com/Marak/Faker.js)
 
-<br>
-
-## Instalação e Uso
-
-Para rodar a aplicação, você precisa instalar o [Node](https://nodejs.org/en/) e o banco de dados [Postgres](https://www.postgresql.org/).
-
-Siga os passos abaixo:
-
-```bash
-# Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/michael23-lopes/foodfy.git
-# ou use a opção de download.
-
-# Entre na pasta com 
-$ cd foodfy
-
-# Instale as dependências
-$ npm install
-
-# Crie o banco de dados e as tabelas utilizando os comandos
-# inclusos no arquivo "foodfy.sql".
-    
-# Conexão com o banco de dados:
-# Abra e edite o arquivo "db.js" dentro da pasta "src/config"
-# com o seu user e password do Postgres.
-
-# Popule o banco de dados usando o aquivo "seed.js":
-$ node seed.js
-
-# Rode a aplicação
-$ npm start
-```
-
-**Importante:** Não exclua ou altere as imagens de placeholder diretamente da pasta `plublic/images`, pois as receitas e chefs gerados pelo `seed.js` compartilham desses arquivos entre si. Porém, é seguro deletá-las pela área administrativa do site.
-
-<br>
-
-
-### Criando Novos Usuários e Recupeção de Senha
-
-Para usar estes recursos, edite o arquivo `mailer.js` dentro da pasta `scr/lib` com suas credenciais.
 
 <br>
 
